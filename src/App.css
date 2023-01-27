@@ -24,6 +24,15 @@
   color: white;
 }
 
+.navbar-brand{
+  position: relative;
+  background: url(../src/logo_PortfolioWeb.jpg);
+  width: 100px;
+  height: 100px;
+  left: 15px;
+  background-size: contain;
+}
+
 .App-link {
   color: #61dafb;
 }
