@@ -12,8 +12,8 @@ body{
 /*-----------------------------NAVBAR----------------*/
 .logo{
   position: relative;
-  width: 6rem;
-  height: 6rem;
+  width: 5.85rem;
+  height: 5.85rem;
   left: 15px;
   background-size: contain;
 }
