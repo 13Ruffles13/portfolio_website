@@ -47,3 +47,12 @@ nav ul li{
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange);
 }
+
+/*********************** HEADER **********************/
+.header-wraper{
+  position: relative;
+  background:url() no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}

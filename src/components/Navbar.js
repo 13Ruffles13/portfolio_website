@@ -1,5 +1,5 @@
 import React from "react";
-import myLogo from "../logo_PortfolioWeb.jpg";
+import myLogo from "../images/logo_Nav.jpg";
 // REACT font-awesome IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faBars } from "@fortawesome/free-solid-svg-icons";
