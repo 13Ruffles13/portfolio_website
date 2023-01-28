@@ -56,3 +56,23 @@ nav ul li{
   background-position: center;
   height: 90vh;
 }
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Robot Condensed", sans-serif;
+}
+
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/*-------------- TYPED TEXT ---------*/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+}
