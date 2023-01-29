@@ -12,8 +12,8 @@ body{
 /*-----------------------------NAVBAR----------------*/
 .logo{
   position: relative;
-  width: 6rem;
-  height: 6rem;
+  width: 5.625rem;
+  height: 5.625rem;
   left: 15px;
   background-size: contain;
 }
@@ -46,4 +46,13 @@ nav ul li{
 
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/*********************** HEADER **********************/
+.header-warper{
+  position: relative;
+  background: url(../src/images/header_Background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
