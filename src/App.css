@@ -2,7 +2,7 @@
 
 :root{
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
+  --home-textColor: #9bbbed;
   --primary-dark: rgba(255,255,255,0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -74,7 +74,7 @@ nav ul li{
 }
 
 .main-info h1{
-  color: var(--primary-orange);
+  color: #fec6af;
   text-transform: uppercase;
 }
 
@@ -87,7 +87,7 @@ nav ul li{
 
 /*------------- HEADER MAIN OFFER BUTTON ----------*/
 .btn-main-offer{
-  border: 1px solid var(--primary-red);
+  border: 1px solid #fec6af;
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -95,3 +95,14 @@ nav ul li{
   margin: 2rem;
 }
 
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: #085597;
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+/************ MOBILE DEVICES W/H *****************/
+/* @media(max-width:) {
+  Template
+} */

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header-warper">
       <div className="main-info">
-        <h1>web developer and websites promotions</h1>
+        <h1>Occupations:</h1>
         <Typed
           className="typed-text"
           strings={[
