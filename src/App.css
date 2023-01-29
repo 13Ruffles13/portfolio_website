@@ -2,8 +2,10 @@
 
 :root{
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
+  --home-textColor: #9bbbed;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body{
@@ -56,3 +58,51 @@ nav ul li{
   background-position: center;
   height: 90vh;
 }
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Robot Condensed", sans-serif;
+}
+
+.main-info h1{
+  color: #fec6af;
+  text-transform: uppercase;
+}
+
+/*-------------- TYPED TEXT ---------*/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+  
+}
+
+/*------------- HEADER MAIN OFFER BUTTON ----------*/
+.btn-main-offer{
+  border: 1px solid #fec6af;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: #085597;
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+/************ MOBILE DEVICES W/H *****************/
+/* @media(max-width:) {
+  Template
+} */
