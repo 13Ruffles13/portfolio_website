@@ -28,7 +28,7 @@ const ContactInfo = () => {
                 type="text"
                 className="form-control"
                 placeholder="Name"
-                name="from_name"
+                name="name"
               ></input>
             </div>
             <div className="col-8 form-group pt-2 mx-auto">
@@ -36,7 +36,7 @@ const ContactInfo = () => {
                 type="email"
                 className="form-control"
                 placeholder="Email Address"
-                name="email"
+                name="user_email"
                 required
               ></input>
             </div>
